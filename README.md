@@ -5,7 +5,7 @@
 
 ## ⚙️ Overview
 
-**Multi Roblox Unlocker Pro** allows you to **run multiple Roblox instances** on Windows 10/11.  
+**Multi Roblox Unlocker ** allows you to **run multiple Roblox instances** on Windows 10/11.  
 It uses **4 advanced unlocking methods** to automatically remove the Roblox **single-instance restriction**, letting you open multiple accounts at once.
 
 > 🧠 Current GUI Version: **v3.1**  

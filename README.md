@@ -77,7 +77,7 @@ If you prefer to build your own `.exe`:
 ```pyinstaller --noconfirm --onefile --windowed --icon=icon.ico main.py```
 Output will appear in the dist/ folder.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 ❗ This tool does NOT modify Roblox gameplay or bypass its security systems.
 It only removes the multi-instance restriction for legitimate use cases (e.g., development, multi-account testing).
 
@@ -87,5 +87,7 @@ Does not inject code, patch memory, or alter Roblox binaries
 
 Some methods may require updates if Roblox changes its internal locking system
 
+## ⚒️ Credits
+Build with Python 3.x, Tkinter/ttk, ctypes, psutil, subprocess, logging, threading, os, pathlib, sys
 
 

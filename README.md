@@ -5,12 +5,12 @@
 
 ## ⚙️ Overview
 
-**Multi Roblox Unlocker ** allows you to **run multiple Roblox instances** on Windows 10/11.  
+**Multi Roblox Unlocker** allows you to **run multiple Roblox instances** on Windows 10/11.  
 It uses **4 advanced unlocking methods** to automatically remove the Roblox **single-instance restriction**, letting you open multiple accounts at once.
 
-> 🧠 Current GUI Version: **v3.1**  
-> ✅ Fixed Method 1 (Native Handle Close)  
-> 💾 Precompiled `.exe` available in [Releases](https://github.com/dat514/Multi-Roblox-Tab/releases/latest)
+>  Current GUI Version: **v3.1**  
+>  Fixed Method 1 (Native Handle Close)  
+>  Precompiled `.exe` available in [Releases](https://github.com/dat514/Multi-Roblox-Tab/releases/latest)
 
 ---
 
@@ -18,31 +18,31 @@ It uses **4 advanced unlocking methods** to automatically remove the Roblox **si
 
 | Feature | Description |
 |----------|-------------|
-| 🧠 **4 Unlock Methods** | Native Handle Close, PowerShell Mutex, Suspend/Resume, Memory Access |
-| 🔍 **Auto Process Detection** | Automatically detects `RobloxPlayerBeta.exe` and applies unlocking |
-| 📊 **Live Statistics** | Displays Roblox instances, unlock success, and activity status |
-| 🎨 **Modern UI** | Dark/Light theme with live theme toggle |
-| 🔐 **Admin Privilege** | Automatically relaunches with Administrator rights if needed |
-| 🧾 **Detailed Logging** | Logs stored at `%TEMP%\multi_roblox.log` |
-| 💾 **Ready-to-use EXE** | Available in Releases, no Python required |
+| **4 Unlock Methods** | Native Handle Close, PowerShell Mutex, Suspend/Resume, Memory Access |
+| **Auto Process Detection** | Automatically detects `RobloxPlayerBeta.exe` and applies unlocking |
+| **Live Statistics** | Displays Roblox instances, unlock success, and activity status |
+| **Modern UI** | Dark/Light theme with live theme toggle |
+| **Admin Privilege** | Automatically relaunches with Administrator rights if needed |
+| **Detailed Logging** | Logs stored at `%TEMP%\multi_roblox.log` |
+| **Ready-to-use EXE** | Available in Releases, no Python required |
 
 ---
 
 ## 🖥️ How to Use
 
-### 1️⃣ Download
-Grab the latest `.exe` build here:   [Releases](https://github.com/dat514/Multi-Roblox-Tab/releases/latest)
+### 1️ Download
+Grab the latest `.exe` build here: [Releases](https://github.com/dat514/Multi-Roblox-Tab/releases/latest)
 
-### 2️⃣ Run the Tool
+### 2️ Run the Tool
 - Launch **MultiRobloxUnlocker.exe**  
 - It will **request Administrator access** automatically (required for handle access)
 
-### 3️⃣ Start Roblox
+### 3️ Start Roblox
 - Click **START MONITORING**  
 - Then open Roblox from your browser or desktop app  
 - The tool will detect the Roblox process and apply all 4 unlock methods automatically  
 
-### 4️⃣ Monitor Results
+### 4️ Monitor Results
 - If unlocked successfully → Status shows **✅ UNLOCKED**  
 - If not yet unlocked → Status shows **⚠️ ACTIVE**
 
@@ -73,12 +73,14 @@ Grab the latest `.exe` build here:   [Releases](https://github.com/dat514/Multi-
 
 If you prefer to build your own `.exe`:
 
-```pip install psutil pyinstaller```
-```pyinstaller --noconfirm --onefile --windowed --icon=icon.ico main.py```
+```bash
+pip install psutil pyinstaller
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico main.py
+```
 Output will appear in the dist/ folder.
 
 ## ⚠️ Disclaimer
-❗ This tool does NOT modify Roblox gameplay or bypass its security systems.
+❗ This tool does NOT modify Roblox gameplay or bypass its security systems.  
 It only removes the multi-instance restriction for legitimate use cases (e.g., development, multi-account testing).
 
 Always run as Administrator
@@ -89,5 +91,3 @@ Some methods may require updates if Roblox changes its internal locking system
 
 ## ⚒️ Credits
 Build with Python 3.x, Tkinter/ttk, ctypes, psutil, subprocess, logging, threading, os, pathlib, sys
-
-

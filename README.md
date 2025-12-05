@@ -1,5 +1,10 @@
-# 🧩 Multi Roblox Unlocker v3.1  
-**Advanced Multi-Instance Unlocker for Roblox – by dat514**
+# 🧩 Multi Roblox Unlocker v3.1
+![Windows](https://img.shields.io/badge/platform-Windows_10%2F11-blue.svg?style=flat&logo=windows)
+![Python](https://img.shields.io/badge/built_with-Python_3.x-3776AB.svg?style=flat&logo=python)
+![Admin Required](https://img.shields.io/badge/privileges-Administrator_required-red.svg?style=flat)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-v3.1-orange.svg)
+![Unlock Methods](https://img.shields.io/badge/unlock_methods-4-success.svg?style=flat&logo=roblox)
 
 ---
 
